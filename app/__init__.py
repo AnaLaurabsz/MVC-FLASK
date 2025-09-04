@@ -17,6 +17,6 @@ def create_app():
     app.add_url_rule("/tasks", view_func=TaskController.list_tasks, endpoint="list_tasks")
     app.add_url_rule("/tasks/new", view_func=TaskController.create_tasks, methods=["GET", "POST"], endpoint="create_tasks")
     app.add_url_rule("/tasks/update/<int:task_id>", view_func=TaskController.update_task_status, methods=["POST"], endpoint="update_task_status")
-    app.add_url_rule("/tasks/delete/<int:task_id>", view_func=TaskController.delete_task, methods=["POST"], endpoint="delete_tasks")
+    app.add_url_rule("/tasks/delete/<int:task_id>", view_func=TaskController.delete_tasks, methods=["POST"], endpoint="delete_tasks")
 
     return app

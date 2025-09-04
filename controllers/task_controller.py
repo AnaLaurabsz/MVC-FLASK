@@ -38,7 +38,7 @@ class TaskController:
         return redirect(url_for("list_tasks"))
 
     @staticmethod
-    def delete_task(task_id):
+    def delete_tasks(task_id):
         task = Task.query.get(task_id)
         db.session.delete(task)
         db.session.commit()

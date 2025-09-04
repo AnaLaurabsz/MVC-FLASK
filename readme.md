@@ -1,6 +1,8 @@
-# 1 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-#  C:/Users/HP/Desktop/Faculdade/APIS/apis/Scripts/Activate.ps1
 
-.\apis\Scripts\Activate
+criar ambiente: python -m venv ven 
 
-.\venv\Scripts\Activate   
+executar o ambiente: venv\Scripts\activate
+
+instalar requirements: pip install -r requirements.txt
+
+rodar a aplicação: python run.py
