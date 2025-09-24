@@ -1,8 +1,5 @@
 # 🚀 Gerenciador de Tarefas - Aplicação Web com Flask e MVC
-Aplicação web para cadastro e listagem de jogos, desenvolvida em Python com o framework Flask. O projeto segue a arquitetura **MVC (Model-View-Controller)** para organizar o código de forma clara e escalável.
-
-O sistema conta com autenticação de usuários, permitindo que apenas usuários logados possam cadastrar novos jogos.
-
+Aplicação web para cadastro e listagem de usuários e tarefas, desenvolvida em Python com o framework Flask. O projeto segue a arquitetura **MVC (Model-View-Controller)** para organizar o código de forma clara e escalável.
 
 ## ✨ Funcionalidades Principais
 
